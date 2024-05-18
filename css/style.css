@@ -1,5 +1,5 @@
 .t3-footer{
-    background: #222;
+    background: #fff;
     color: #999;
 }
 
@@ -128,7 +128,7 @@ ul li, ol li{
 
 .t3-footnav .t3-module .module-title{
     text-align: center;
-    color: #fff;
+    color: #555555;
     font-size: 18px;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -179,3 +179,88 @@ h1, .h1, h2, .h2, h3, .h3{
     text-align: center;
 }
 
+.page_body{
+    margin-bottom: 3em;
+}
+
+.product__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.product{
+    border-radius: 7px;
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+    display: flex;
+    min-height: 410px;
+    overflow: hidden;
+}
+
+.product__container {
+    width: 100%;
+}
+
+.product__image {
+    width: 100%;
+    min-height: 120px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+img {
+    border-style: none;
+}
+
+.product__container > div {
+    margin: 1.5rem .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.product__title {
+    margin: 0;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90%;
+    position: relative;
+    left: 14px;
+}
+
+.product__description {
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 300;
+    color: #6f6f6f;
+    }
+
+.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+}
+
+.product__container {
+    position: relative;
+  }
+  
+  .product__watermark {
+    position: absolute;
+    bottom: 10px; /* Ajustar la distancia desde la parte inferior según sea necesario */
+    right: 10px; /* Ajustar la distancia desde la derecha según sea necesario */
+    opacity: 0.5;
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+  }
+  
+  
